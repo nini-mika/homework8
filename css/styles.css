@@ -61,3 +61,21 @@ margin-bottom: 50px;
 }
 
 /* task 3 */
+.task3{
+    font-size: 70px;
+    font-style: normal;
+    color: rgb(178, 12, 12);
+    color: aquamarine;
+    animation: textcolor 3s linear infinite;
+}
+
+@keyframes textcolor {
+   0%{
+    color: rgb(178, 12, 12);
+   } 
+100% {
+    color: aquamarine;
+}
+}
+
+/* task 4 */
