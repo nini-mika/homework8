@@ -118,3 +118,29 @@
     animation-play-state: paused;
 }
 
+/* task 5 */
+header {
+    width: 500px;
+    height: 80px;
+    margin:  auto;
+    background-color: rgb(161, 161, 198);
+    padding: 35px 100px;
+  }
+
+  ul {
+    display: flex;
+    column-gap: 20px;
+  }
+  
+  a {
+    font-size: 25px;
+    text-shadow: 1px 1px 2px rgb(103, 103, 102);
+    transition: text-shadow 2s;
+  }
+  a:hover {
+    text-shadow: 0 0 15px green, 0 0 30px green, 0 0px 60px green,
+        0 0 120px green;
+    }
+
+    
+        
