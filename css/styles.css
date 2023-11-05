@@ -8,6 +8,7 @@
     align-items: middle;
     padding: 150px ;
     margin:  auto;
+    margin-bottom: 80px;
 }
 
 .task1_button{
@@ -28,5 +29,35 @@
     box-shadow: inset 8px 8px 10px black, inset -3px -3px 6px white;;
 }
 
+/* task 2 */
+.task2_figure{
+width: 400px;
+margin: auto;
+padding: 50px;
+transition: border, border-radius, box-shadow, 3s linear;
+margin-bottom: 50px;
+}
 
-    
+.task2_figure:hover{
+    border: 18px white;
+    border-radius: 15px;
+    box-shadow: 3px 3px 50px 6px blue;
+}
+
+.task2_img{
+   width: 300px;
+   transition-property: border-radius;
+}
+
+.task2_img:hover{
+    border-radius: 15px 15px 0 0;
+}
+
+.fig_cap{
+    font-size: 25px;
+    font-style: italic;
+    margin-top: 15px;
+    color: blue;
+}
+
+/* task 3 */
