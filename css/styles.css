@@ -6,54 +6,55 @@
     display: flex;
     justify-content: center;
     align-items: middle;
-    padding: 150px ;
-    margin:  auto;
+    padding: 150px;
+    margin: auto;
     margin-bottom: 80px;
 }
 
-.task1_button{
+.task1_button {
     width: 300px;
     height: 100px;
     border: none;
     font-size: 25px;
     font-style: normal;
     color: white;
-    background-color:  rgb(184, 126, 239);
+    background-color: rgb(184, 126, 239);
     border-radius: 25px;
     text-shadow: 3px 3px 3px 3px rgb(86, 83, 83);
     box-shadow: 8px 8px 10px black, inset 3px 3px 6px white;
 }
 
-.task1_button:active{
+.task1_button:active {
     text-shadow: 1px rgb(86, 83, 83);
-    box-shadow: inset 8px 8px 10px black, inset -3px -3px 6px white;;
+    box-shadow: inset 8px 8px 10px black, inset -3px -3px 6px white;
+    ;
 }
 
 /* task 2 */
-.task2_figure{
-width: 400px;
-margin: auto;
-padding: 50px;
-transition: border, border-radius, box-shadow, 3s linear;
-margin-bottom: 50px;
+.task2_figure {
+    width: 400px;
+    margin: auto;
+    padding: 50px;
+    transition: border, border-radius, box-shadow, 3s linear;
+    margin-bottom: 50px;
 }
 
-.task2_figure:hover{
+.task2_figure:hover {
     border: 18px white;
     border-radius: 15px;
     box-shadow: 3px 3px 50px 6px blue;
 }
 
-.task2_img{
-   width: 300px;
-   transition-property: border-radius;
+.task2_img {
+    width: 300px;
+    transition-property: border-radius;
 }
 
-.task2_img:hover{
+.task2_img:hover {
     border-radius: 15px 15px 0 0;
 }
 
-.fig_cap{
+.fig_cap {
     font-size: 25px;
     font-style: italic;
     margin-top: 15px;
@@ -61,21 +62,59 @@ margin-bottom: 50px;
 }
 
 /* task 3 */
-.task3{
+.task3 {
     font-size: 70px;
     font-style: normal;
     color: rgb(178, 12, 12);
     color: aquamarine;
     animation: textcolor 3s linear infinite;
+    margin-bottom: 200px;
 }
 
 @keyframes textcolor {
-   0%{
-    color: rgb(178, 12, 12);
-   } 
-100% {
-    color: aquamarine;
-}
+    0% {
+        color: rgb(178, 12, 12);
+    }
+
+    100% {
+        color: aquamarine;
+    }
 }
 
 /* task 4 */
+.task4_div {
+    margin: 150px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    position: relative;
+}
+
+.spinner {
+    position: absolute;
+    border: 15x solid blue;
+    border-radius: 50%;
+    border-top: 15px solid rgb(161, 11, 11);
+    /* margin-left: 15px solid red;
+    margin-right: 15px solid blue; */
+    border-bottom: 15px solid rgb(198, 15, 146);
+    width: 200px;
+    height: 200px;
+    animation: spinner 3s linear infinite forwards;
+}
+
+@keyframes spinner {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.spinner:hover {
+    animation-play-state: paused;
+}
+
